@@ -1,0 +1,27 @@
+name: Changelog CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Git Clone
+        run: |
+          git clone https://github.com/endygamedev/party-parrot.git
+          git config --global user.email "bronnikov.40@mail.ru"
+          git config --global user.name "Egor"
+      
+      - name: Git Commit
+        run: |
+          echo $(git log -1 --pretty=tformat:"<h3>%B</h3>Date: %ci") >> CHANGELOG.md
+          git add .
+          git commit -m 'CHANGELOG CI'
+          git push
