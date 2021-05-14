@@ -15,7 +15,7 @@ jobs:
       
       - name: Git Clone
         run: |
-          git clone https://github.com/endygamedev/party-parrot.git
+          git clone https://github.com/endygamedev/dynamic-programming.git
           git config --global user.email "bronnikov.40@mail.ru"
           git config --global user.name "Egor"
       
