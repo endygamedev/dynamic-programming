@@ -1,0 +1,10 @@
+Done 12) The Levenshtein distance (Edit distance) problem 
+Done 14) Matrix Chain Multiplication using Dynamic Programming
+Done 15) Find the minimum cost to reach last cell of the matrix from its first cell
+17) Count number of paths in a matrix with given cost to reach destination cell
+23) Find all N-digit binary strings without any consecutive 1’s
+24) Rod Cutting Problem
+38) Calculate sum of all elements in a sub-matrix in constant time
+39) Find Maximum Sum Submatrix in a given matrix
+43) Single-Source Shortest Paths — Bellman Ford Algorithm
+44) All-Pairs Shortest Paths — Floyd Warshall Algorithm
