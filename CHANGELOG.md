@@ -11,3 +11,4 @@ All changes to this project will be documented in this file.
 <h3>:memo: Conducted code review </h3>Date: 2021-05-21 00:00:26 +0300
 <h3>:memo: Refactor code </h3>Date: 2021-05-21 00:03:25 +0300
 <h3>:gorilla: Refactor code and added solution to `knapsack` problem </h3>Date: 2021-05-21 02:34:47 +0300
+<h3>README</h3>Date: 2021-05-21 02:43:50 +0300
