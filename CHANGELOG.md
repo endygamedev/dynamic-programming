@@ -9,3 +9,4 @@ All changes to this project will be documented in this file.
 <h3>:memo: Conducted code review </h3>Date: 2021-05-20 23:53:21 +0300
 <h3>:memo: Conducted code review </h3>Date: 2021-05-20 23:57:32 +0300
 <h3>:memo: Conducted code review </h3>Date: 2021-05-21 00:00:26 +0300
+<h3>:memo: Refactor code </h3>Date: 2021-05-21 00:03:25 +0300
