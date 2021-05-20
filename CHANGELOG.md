@@ -7,3 +7,4 @@ All changes to this project will be documented in this file.
 <h3>:gorilla: Update workflow </h3>Date: 2021-05-15 12:46:22 +0300
 <h3>Merge pull request #2 from arti-shok/main :star_struck: Added some algorithms</h3>Date: 2021-05-18 23:34:35 +0300
 <h3>:memo: Conducted code review </h3>Date: 2021-05-20 23:53:21 +0300
+<h3>:memo: Conducted code review </h3>Date: 2021-05-20 23:57:32 +0300
