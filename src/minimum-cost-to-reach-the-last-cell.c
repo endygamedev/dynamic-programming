@@ -1,12 +1,9 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include <string.h>
 
 
 int min(int x, int y) {
 	return x > y ? y : x;
 }
-
 
 int find_min_matrix_path(int costs[5][5]) {
     int C[5][5];
@@ -26,6 +23,7 @@ int find_min_matrix_path(int costs[5][5]) {
     }
     return C[4][4];
 }
+
 
 int main(void) {
 	return 0;
