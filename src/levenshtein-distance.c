@@ -22,8 +22,8 @@ int levenshtein_distance_rec(char * x_string, int m, char * y_string, int n) {
         cost = 1;
     }
     return min(min(levenshtein_distance_rec(x_string, m - 1, y_string, n) + 1,
-                   levenshtein_distance_rec(x_string, m, y_string, n - 1)),
-				   levenshtein_distance_rec(x_string, m - 1, y_string, n - 1) + cost);
+					levenshtein_distance_rec(x_string, m, y_string, n - 1)),
+					levenshtein_distance_rec(x_string, m - 1, y_string, n - 1) + cost);
 }
 
 
