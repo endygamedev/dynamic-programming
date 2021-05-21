@@ -1,9 +1,6 @@
 int main()
 {
-    printf("Egor <3");
+    printf("ooooo");
     return 0;
 }
-
-
-
 
