@@ -3,8 +3,7 @@
 #include <limits.h>
 
 
-int matrix_chain_multiplication(int* dims, int n)
-{
+int matrix_chain_multiplication(int* dims, int n) {
     int C[n + 1][n + 1];
 
     for(int i = 1; i <= n; i++)
@@ -27,5 +26,7 @@ int matrix_chain_multiplication(int* dims, int n)
 
 
 int main(void) {
+    int dims[] = {10, 30, 5, 60};
+    printf("%d\n", matrix_chain_multiplication(dims, 4)); //4500
 	return 0;
 }

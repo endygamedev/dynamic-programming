@@ -14,7 +14,7 @@ int levenshtein_distance_rec(char * x_string, int m, char * y_string, int n) {
 
 	if(n == 0)
 		return m;
-    
+
 	int cost;
 	if(x_string[m - 1] == y_string[n - 1]) {
 		cost = 0;
@@ -60,5 +60,5 @@ int levenshtein_distance(char * x_string, char * y_string) {
 
 
 int main(void) {
-	printf("%d", levenshtein_distance("kitten", "sitting"));
+	printf("%d", levenshtein_distance("kitten", "sitting"));//3
 }
