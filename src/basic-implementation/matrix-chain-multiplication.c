@@ -27,6 +27,6 @@ int matrix_chain_multiplication(int* dims, int n) {
 
 int main(void) {
     int dims[] = {10, 30, 5, 60};
-    printf("%d\n", matrix_chain_multiplication(dims, 4)); //4500
+    printf("%d\n", matrix_chain_multiplication(dims, 4));	/*4500*/
 	return 0;
 }

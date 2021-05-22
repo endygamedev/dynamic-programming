@@ -60,5 +60,5 @@ int levenshtein_distance(char * x_string, char * y_string) {
 
 
 int main(void) {
-	printf("%d", levenshtein_distance("kitten", "sitting"));//3
+	printf("%d", levenshtein_distance("kitten", "sitting"));	/*3*/
 }

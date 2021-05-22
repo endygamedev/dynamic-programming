@@ -5,6 +5,7 @@ int min(int x, int y) {
 	return x > y ? y : x;
 }
 
+
 int min_matrix_path(int m, int n, int costs[m][n]) {
     int C[m][n];
     memset(C, 0, sizeof(C));
