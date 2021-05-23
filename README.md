@@ -19,11 +19,11 @@
 <table>
   <tr>
     <td><img alt="egor bronnikov" src="https://avatars.githubusercontent.com/u/52889537?v=4" width="40"></td>
-    <td><a href="https://github.com/endygamedev">Egor Bronnikov</a></td>
+    <td><img src="./assets/parrot.gif" alt="parrot" width="25"/> <a href="https://github.com/endygamedev">Egor Bronnikov</a></td>
   </tr>
   <tr>
     <td><img alt="roman postolnik" src="https://avatars.githubusercontent.com/u/60935386?v=4" width="40"</td>
-    <td><a href="https://github.com/arti-shok">Roman Postolnik</a></td>
+    <td><img src="./assets/parrot.gif" alt="parrot" width="25"/> <a href="https://github.com/arti-shok">Roman Postolnik</a></td>
   </tr>
 </table>
 
