@@ -20,3 +20,4 @@ All changes to this project will be documented in this file.
 <h3>README</h3>Date: 2021-05-22 23:18:27 +0300
 <h3>:parrot: Added some algorithms </h3>Date: 2021-05-23 02:19:15 +0300
 <h3>README</h3>Date: 2021-05-23 02:33:29 +0300
+<h3>README</h3>Date: 2021-05-23 13:17:13 +0300
