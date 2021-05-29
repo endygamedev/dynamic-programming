@@ -17,3 +17,4 @@ All changes to this project will be documented in this file.
 <h3>:alien: Аdded some algorithms and restructured the project Added algorithms such as Count number of paths in a matrix with given cost to reach destination cell, Find all N-digit binary strings without any consecutive 1’s and Rod Cutting Problem! </h3>Date: 2021-05-22 19:25:31 +0300
 <h3>Merge branch 'main' of https://github.com/arti-shok/dynamic-programming into main </h3>Date: 2021-05-29 20:55:01 +0300
 <h3>🏓 Added tests and descriptions Added tests and descriptions to the algorithms, and rewritten the fixed cost pathfinding algorithm for the matrix </h3>Date: 2021-05-29 21:11:28 +0300
+<h3>Merge pull request #4 from arti-shok/main 🏓 Added tests and descriptions</h3>Date: 2021-05-29 21:13:28 +0300
