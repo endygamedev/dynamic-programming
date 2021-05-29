@@ -7,27 +7,19 @@ int min(int x, int y) {
 }
 
 
-int levenshtein_distance_rec(char * x_string, int m, char * y_string, int n) {
+int levenshtein_distance_arr(char * x_string, char * y_string) {
+    /*
+    description:
+    calculates the Levenshtein distance between two strings
 
-	if(m == 0)
-		return n;
+    input:
+    x - string
+    y - string
 
-	if(n == 0)
-		return m;
-
-	int cost;
-	if(x_string[m - 1] == y_string[n - 1]) {
-		cost = 0;
-	} else {
-		cost = 1;
-	}
-	return min(min(levenshtein_distance_rec(x_string, m - 1, y_string, n) + 1,
-					levenshtein_distance_rec(x_string, m, y_string, n - 1)),
-					levenshtein_distance_rec(x_string, m - 1, y_string, n - 1) + cost);
-}
-
-
-int levenshtein_distance_arr(char * x_string, int m, char * y_string, int n) {
+    output:
+    the Levenshtein distance (int)
+    */
+    int m = strlen(x_string), n = strlen(y_string);
 	char D[m + 1][n + 1];
 	memset(D, 0, sizeof(D));
 	int sub_cost;
@@ -53,12 +45,12 @@ int levenshtein_distance_arr(char * x_string, int m, char * y_string, int n) {
 }
 
 
-int levenshtein_distance(char * x_string, char * y_string) {
-	int m = strlen(x_string), n = strlen(y_string);
-	return levenshtein_distance_arr(x_string, m, y_string, n);
-}
-
-
 int main(void) {
-	printf("%d", levenshtein_distance("kitten", "sitting"));	/*3*/
+    if(levenshtein_distance_arr("kitten", "sitting") == 3)
+        printf("test 1 passed\n");
+    else printf("test 1 failed\n");
+
+    if(levenshtein_distance_arr("roma", "fokar") == 3)
+        printf("test 2 passed\n");
+    else printf("test 2 failed\n");
 }

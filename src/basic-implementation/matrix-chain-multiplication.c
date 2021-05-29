@@ -4,6 +4,20 @@
 
 
 int matrix_chain_multiplication(int* dims, int n) {
+    /*
+    description:
+    finds the minimum number of operations
+    required to multiply a chain of matrices
+
+    input:
+    dims - dimensions of matrices,
+    that is, matrices have dimensions (dims[0], dims[1]),
+    (dims[1], dims[2]) etc.
+    n - number of matrices
+
+    output:
+    minimum number of operations
+    */
     int C[n + 1][n + 1];
 
     for(int i = 1; i <= n; i++)
@@ -26,7 +40,16 @@ int matrix_chain_multiplication(int* dims, int n) {
 
 
 int main(void) {
-    int dims[] = {10, 30, 5, 60};
-    printf("%d\n", matrix_chain_multiplication(dims, 4));	/*4500*/
+    int dims_1[] = {10, 30, 5, 60};
+    int dims_2[] = {20, 40, 15, 30, 6};
+
+    if(matrix_chain_multiplication(dims_1, 4) == 4500)
+        printf("test 1 passed\n");
+    else printf("test 1 failed\n");
+
+    if(matrix_chain_multiplication(dims_2, 5) == 11100)
+        printf("test 2 passed\n");
+    else printf("test 2 failed\n");
+
 	return 0;
 }
