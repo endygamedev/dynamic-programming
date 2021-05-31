@@ -7,14 +7,12 @@
 <details open>
   <summary> <b> <img src="./assets/parrot.gif" alt="parrot" width="25"/> Table of content </b> </summary>
   <ol>
-    <li><b><a href="#contributors">Contributors</a></b></li>
-    <li><b><a href="#license">License</a></b></li>
+    <li><b><a href="#contributors" id="table_contributors">Contributors</a></b></li>
+    <li><b><a href="#license" id="table_license">License</a></b></li>
   </ol>
 </details>
 
-<a id="contributors">
-  <h2>Contributors</h2>
-</a>
+<a id="contributors" href="#table_contributors"><h2>Contributors</h2></a>
 
 <table>
   <tr>
@@ -28,9 +26,7 @@
 </table>
 
 
-<a id="license">
-  <h2>License</h2>
-</a>
+<a id="license" href="#table_license"><h2>License</h2></a>
 
 <code>dynamic-programming</code> provided under the terms of the GPL-3.0 license.
 See the [LICENSE](./LICENSE) files for details.
