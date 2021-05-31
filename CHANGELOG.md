@@ -19,3 +19,4 @@ All changes to this project will be documented in this file.
 <h3>🏓 Added tests and descriptions Added tests and descriptions to the algorithms, and rewritten the fixed cost pathfinding algorithm for the matrix </h3>Date: 2021-05-29 21:11:28 +0300
 <h3>Merge pull request #4 from arti-shok/main 🏓 Added tests and descriptions</h3>Date: 2021-05-29 21:13:28 +0300
 <h3>:shell: Test version of the module </h3>Date: 2021-05-31 02:00:03 +0300
+<h3>README</h3>Date: 2021-05-31 11:49:47 +0300
