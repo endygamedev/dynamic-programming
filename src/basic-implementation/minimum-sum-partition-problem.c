@@ -16,15 +16,15 @@ int min_sum_partition(int n, int s[n], int s1, int s2) {
 }
 
 
-void test_1();
+void test_2();
 
 
 int main(void) {
-	test_1();
+	test_2();
 }
 
 
-void test_1() {
+void test_2() {
 	int s[] = {10, 20, 15, 5, 25};
 	int n = sizeof(s)/sizeof(s[0]);
 	printf("%d", min_sum_partition(n, s, 0, 0));

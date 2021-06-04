@@ -1,9 +1,11 @@
 from distutils.core import setup, Extension
 
+
 module = Extension (
         'fdpp',
         sources = ['module.c']
 )
+
 
 setup (
     name = 'fdpp',
