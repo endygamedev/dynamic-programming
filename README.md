@@ -4,16 +4,21 @@
   <a href="#contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/endygamedev/dynamic-programming?color=blue"></a>
 </p>
 
+A module for Python in C that solves some dynamic programming problems.
+
 <details open>
   <summary> <b> <img src="./assets/parrot.gif" alt="parrot" width="25"/> Table of content </b> </summary>
   <ol>
     <li><b><a href="#algorithms" id="table_algorithms">Algorithms</a></b></li>
+    <li><b><a href="#module" id="table_module">Module</a></b></li>
     <li><b><a href="#contributors" id="table_contributors">Contributors</a></b></li>
     <li><b><a href="#license" id="table_license">License</a></b></li>
   </ol>
 </details>
 
 <a id="algorithms" href="#table_algorithms"><h2>Algorithms</h2></a>
+
+The selected tasks are the following tasks.
 
 <details>
   <summary> 1. <a href="./src/basic-implementation/knapsack.c">0–1 Knapsack problem</a> </summary>
@@ -37,7 +42,7 @@
 </details>
 
 <details>
-  <summary> 4. <a href="./src/basic-implementation/coin-change-making.c">Coin Change-making Problem</a> </summary>
+  <summary> 4. <a href="./src/basic-implementation/coin-change-making.c">Coin Change-Making Problem</a> </summary>
       <h6>Short description</h6>
       <p>Given an unlimited supply of coins of given denominations, find the minimum number of coins required to get the desired change. That is, you need to find the minimum number of coins to exchange and withdraw this set. </p>
       <h6> View full on <a href="https://en.wikipedia.org/wiki/Change-making_problem">Wiki</a> </h6>
@@ -83,6 +88,29 @@
       <p>Given a positive integer <code>n</code>, count all n–digit binary strings without any consecutive <code>1's</code>.</p>
       <h6> View full on <a href="https://www.techiedelight.com/find-n-digit-binary-strings-without-consecutive-1s/">Wiki</a> </h6>
 </details>
+
+<a id="module" href="#table_module"><h2>Module</h2></a>
+The task is decomposed into three modules:
+<ol>
+    <li><a href="./src/python-modules/change-making">Change-Making Problem</a></li>
+    <li><a href="./src/python-modules/knapsack">Knapsack Problem</a></li>
+    <li><a href="./src/python-modules/knapsack">FDPP (other problems)</a></li>
+</ol>
+
+
+<h3>Install</h3>
+<pre>
+$ ./run
+</pre>
+
+And also you can instant test installed packages
+
+<h3>Usage</h3>
+<pre>
+import fdpp
+import knapsack
+import change_making
+</pre>
 
 <a id="contributors" href="#table_contributors"><h2>Contributors</h2></a>
 
