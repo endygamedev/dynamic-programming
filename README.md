@@ -39,15 +39,49 @@
 <details>
   <summary> 4. <a href="./src/basic-implementation/coin-change-making.c">Coin Change-making Problem</a> </summary>
       <h6>Short description</h6>
-      <p>Given an unlimited supply of coins of given denominations, find the minimum number of coins required to get the desired change.</p>
+      <p>Given an unlimited supply of coins of given denominations, find the minimum number of coins required to get the desired change. That is, you need to find the minimum number of coins to exchange and withdraw this set. </p>
       <h6> View full on <a href="https://en.wikipedia.org/wiki/Change-making_problem">Wiki</a> </h6>
 </details>
 
 <details>
-  <summary> 5. <a href="./src/basic-implementation/levenshtein-distance.c ">The Levenshtein Distance Problem</a> </summary>
+  <summary> 5. <a href="./src/basic-implementation/levenshtein-distance.c">The Levenshtein Distance Problem</a> </summary>
       <h6>Short description</h6>
       <p>Edit distance is a way of quantifying how different two strings are from one another by counting the minimum number of operations required to transform one string into the other.</p>
       <h6> View full on <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">Wiki</a> </h6>
+</details>
+
+<details>
+  <summary> 6. <a href="./src/basic-implementation/matrix-chain-multiplication.c">Matrix Chain Multiplication Problem</a> </summary>
+      <h6>Short description</h6>
+      <p><b>Matrix chain multiplication</b> is an optimization problem concerning the most efficient way to multiply a given sequence of matrices. The problem is not actually to perform the multiplications, but merely to decide the sequence of the matrix multiplications involved.</p>
+      <h6> View full on <a href="https://en.wikipedia.org/wiki/Matrix_chain_multiplication">Wiki</a> </h6>
+</details>
+
+<details>
+  <summary> 7. <a href="./src/basic-implementation/minimum-cost-to-reach-the-last-cell.c">Minimum Cost to Reach Last Cell of Matrix From Its First Cell Problem</a> </summary>
+      <h6>Short description</h6>
+      <p>Given an <code>M × N</code> matrix where each cell has a cost associated with it, find the minimum cost to reach the last cell <code>(M-1, N-1)</code> of the matrix from its first cell <code>(0, 0)</code>. We can only move one unit right or one unit down from any cell, i.e., from cell <code>(i, j)</code>, we can move to <code>(i, j+1)</code> or <code>(i+1, j)</code>.</p>
+      <h6> View full on <a href="https://www.techiedelight.com/find-minimum-cost-reach-last-cell-matrix-first-cell/">Wiki</a> </h6>
+</details>
+
+<details>
+  <summary> 8. <a href="./src/basic-implementation/const-cost-to-reach-the-last-cell.c">Const Cost to Reach Last Cell of Matrix From Its First Cell Problem</a> </summary>
+      <h6>Short description</h6>
+      <p>Find the number of paths of a given cost from the upper left to the lower right element of the matrices.</p>
+</details>
+
+<details>
+  <summary> 9. <a href="./src/basic-implementation/minimum-sum-partition-problem.c">Minimum Sum Partition Problem</a> </summary>
+      <h6>Short description</h6>
+      <p>Given a set of positive integers <code>S</code>, partition set <code>S</code> into two subsets, <code>S1</code> and <code>S2</code>, such that the difference between the sum of elements in <code>S1</code> and the sum of elements in <code>S2</code> is minimized.</p>
+      <h6> View full on <a href="https://en.wikipedia.org/wiki/Partition_problem">Wiki</a> </h6>
+</details>
+
+<details>
+  <summary> 10. <a href="./src/basic-implementation/n-digit-binary-strings-without-ones.c">Find All N-digit Binary Strings Without Any Consecutive 1's Problem</a> </summary>
+      <h6>Short description</h6>
+      <p>Given a positive integer <code>n</code>, count all n–digit binary strings without any consecutive <code>1's</code>.</p>
+      <h6> View full on <a href="https://www.techiedelight.com/find-n-digit-binary-strings-without-consecutive-1s/">Wiki</a> </h6>
 </details>
 
 <a id="contributors" href="#table_contributors"><h2>Contributors</h2></a>
