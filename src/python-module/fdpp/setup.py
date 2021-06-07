@@ -10,6 +10,6 @@ module = Extension (
 setup (
     name = 'fdpp',
     version = '1.0',
-    description = 'doc',
+    description = 'Favorite dynamic programming problems',
     ext_modules = [module]
 )
