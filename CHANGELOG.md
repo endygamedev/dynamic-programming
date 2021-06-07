@@ -21,3 +21,4 @@ All changes to this project will be documented in this file.
 <h3>:shell: Test version of the module </h3>Date: 2021-05-31 02:00:03 +0300
 <h3>README</h3>Date: 2021-05-31 11:49:47 +0300
 <h3>:snake: Added `python-module` </h3>Date: 2021-06-04 14:06:25 +0300
+<h3>:octocat: Refactor comments and added tests for module </h3>Date: 2021-06-07 14:36:50 +0300
