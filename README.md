@@ -7,9 +7,19 @@
 <details open>
   <summary> <b> <img src="./assets/parrot.gif" alt="parrot" width="25"/> Table of content </b> </summary>
   <ol>
+    <li><b><a href="#algorithms" id="table_algorithms">Algorithms</a></b></li>
     <li><b><a href="#contributors" id="table_contributors">Contributors</a></b></li>
     <li><b><a href="#license" id="table_license">License</a></b></li>
   </ol>
+</details>
+
+<a id="algorithms" href="#table_algorithms"><h2>Algorithms</h2></a>
+
+<details>
+  <summary> 1. <a href="./src/basic-implementation/knapsack.c">0-1 Knapsack problem</a> </summary>
+      <h6>Short description</h6>
+      <p>In the <b>0–1 Knapsack problem</b>, we are given a set of items, each with a weight and a value, and we need to determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.</p>
+      <h6> View full on <a href="https://en.wikipedia.org/wiki/Knapsack_problem">Wiki</a> </h6>
 </details>
 
 <a id="contributors" href="#table_contributors"><h2>Contributors</h2></a>
