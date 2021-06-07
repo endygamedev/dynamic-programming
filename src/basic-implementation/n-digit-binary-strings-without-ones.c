@@ -1,17 +1,22 @@
 #include <stdio.h>
 
+
 int binary_strings_without_ones(int n){
     /*
-    description:
-    finds the number of binary strings
-    of length n in which there are no adjacent ones
+		Description:
+		============
+			finds the number of binary strings
+			of length `n` in which there are no adjacent ones
 
-    input:
-    n - length of strings
+		Arguments:
+		----------
+			* n - length of strings
 
-    output:
-    number of strings
+		Output:
+		-------
+			number of strings
     */
+
     int counts[n][2];
     counts[0][0] = 1;
     counts[0][1] = 1;

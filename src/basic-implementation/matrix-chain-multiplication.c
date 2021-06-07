@@ -5,19 +5,23 @@
 
 int matrix_chain_multiplication(int* dims, int n) {
     /*
-    description:
-    finds the minimum number of operations
-    required to multiply a chain of matrices
+		Description:
+		============
+			finds the minimum number of operations
+			required to multiply a chain of matrices
 
-    input:
-    dims - dimensions of matrices,
-    that is, matrices have dimensions (dims[0], dims[1]),
-    (dims[1], dims[2]) etc.
-    n - number of matrices
+		Arguments:
+		----------
+			* dims - dimensions of matrices,
+			that is, matrices have dimensions (dims[0], dims[1]),
+			(dims[1], dims[2]) etc.
+			* n - number of matrices
 
-    output:
-    minimum number of operations
+		Output:
+		-------
+			minimum number of operations
     */
+
     int C[n + 1][n + 1];
 
     for(int i = 1; i <= n; i++)

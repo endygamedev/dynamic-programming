@@ -91,12 +91,12 @@ static int Knapsack_init(Knapsack *self, PyObject *args, PyObject *kwds) {
 
 
 static PyMemberDef Knapsack_members[] = {
-    {"w", T_INT, offsetof(Knapsack, w), 0, "doc"},
-    {"n", T_INT, offsetof(Knapsack, n), 0, "doc"},
-    {"weights", T_OBJECT_EX, offsetof(Knapsack, weights), 0, "doc"},
-    {"values", T_OBJECT_EX, offsetof(Knapsack, weights), 0, "doc"},
-    {"val", T_INT, offsetof(Knapsack, val), 0, "doc"},
-    {"items", T_OBJECT_EX, offsetof(Knapsack, items), 0, "doc"},
+    {"w", T_INT, offsetof(Knapsack, w), 0, "Knapsack capacity"},
+    {"n", T_INT, offsetof(Knapsack, n), 0, "Number of items in knapsack"},
+    {"weights", T_OBJECT_EX, offsetof(Knapsack, weights), 0, "Weights for each item"},
+    {"values", T_OBJECT_EX, offsetof(Knapsack, weights), 0, "Values for each item"},
+    {"val", T_INT, offsetof(Knapsack, val), 0, "Optimal profit"},
+    {"items", T_OBJECT_EX, offsetof(Knapsack, items), 0, "Mask of items"},
     {NULL}
 };
 
@@ -134,27 +134,27 @@ static PyObject *Knapsack_items(Knapsack* self) {
 static PyMethodDef Knapsack_methods[] = {
 	    {
 			"w", (PyCFunction)Knapsack_w, METH_NOARGS,
-			"DOC"
+			"Knapsack capacity"
 		},
 	    {
 			"n", (PyCFunction)Knapsack_n, METH_NOARGS,
-			"DOC"
+			"Number of items in knapsack"
 		},
 	    {
 			"weights", (PyCFunction)Knapsack_weights, METH_NOARGS,
-		 	"DOC"
+		 	"Weights for each item"
 		},
 	    {
 			"values", (PyCFunction)Knapsack_values, METH_NOARGS,
-		 	"DOC"
+		 	"Values for each item"
 		},
 	    {
 			"val", (PyCFunction)Knapsack_val, METH_NOARGS,
-			"DOC"
+			"Optimal profit"
 		},
 	    {
 			"items", (PyCFunction)Knapsack_items, METH_NOARGS,
-		 	"DOC"
+		 	"Mask of items"
 		},
 		{NULL} 
 };
@@ -182,7 +182,7 @@ static PyTypeObject KnapsackType = {
     0,                         /* tp_as_buffer */
     Py_TPFLAGS_DEFAULT |
         Py_TPFLAGS_BASETYPE,   /* tp_flags */
-    "Noddy objects",           /* tp_doc */
+    "Knapsack",           		/* tp_doc */
     0,                         /* tp_traverse */
     0,                         /* tp_clear */
     0,                         /* tp_richcompare */
@@ -206,7 +206,7 @@ static PyTypeObject KnapsackType = {
 static PyModuleDef module = {
     PyModuleDef_HEAD_INIT,
     "knapsack",
-    "DOC",
+    "knapsack module",
     -1,
     NULL, NULL, NULL, NULL, NULL
 };

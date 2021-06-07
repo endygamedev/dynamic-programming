@@ -9,16 +9,19 @@ int min(int x, int y) {
 
 int levenshtein_distance_arr(char * x_string, char * y_string) {
     /*
-    description:
-    calculates the Levenshtein distance between two strings
+    	Description:
+		============
+			calculates the Levenshtein distance between two strings
 
-    input:
-    x - string
-    y - string
+		Arguments:
+		----------
+			* x, y - given strings
 
-    output:
-    the Levenshtein distance (int)
+		Output:
+		-------
+			the Levenshtein distance
     */
+
     int m = strlen(x_string), n = strlen(y_string);
 	char D[m + 1][n + 1];
 	memset(D, 0, sizeof(D));
@@ -32,11 +35,7 @@ int levenshtein_distance_arr(char * x_string, char * y_string) {
 
 	for(int i = 1; i <= m; i++) {
 		for(int j = 1; j <= n; j++) {
-			if(x_string[i - 1] == y_string[j - 1]){
-				sub_cost = 0;
-			} else {
-				sub_cost = 1;
-			}
+			sub_cost = x_string[i - 1] == y_string[j - 1] ? 0 : 1;
 			D[i][j] = min(min(D[i - 1][j] + 1, D[i][j - 1] + 1),
 								D[i - 1][j - 1] + sub_cost);
 		}

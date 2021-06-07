@@ -5,18 +5,24 @@ int min(int x, int y) {
 	return x > y ? y : x;
 }
 
+
 int min_matrix_path(int m, int n, int costs[m][n]) {
     /*
-    description: looking for a minimum cost path
-    from the top-left element
-    to the bottom-right element of the matrix
+		Description:
+		============
+			looking for a minimum cost path
+			from the top-left element
+			to the bottom-right element of the matrix
 
-    input:
-    m, n - size of cost matrix costs[m][n]
+		Arguments:
+		----------
+			* m, n - size of cost matrix costs[m][n]
 
-    output:
-    minimum cost path length
+		Output:
+		-------
+			minimum cost path length
     */
+
     int C[m][n];
     memset(C, 0, sizeof(C));
     C[0][0] = costs[0][0];
