@@ -24,3 +24,4 @@ All changes to this project will be documented in this file.
 <h3>:octocat: Refactor comments and added tests for module </h3>Date: 2021-06-07 14:36:50 +0300
 <h3>:memo: Refactor code </h3>Date: 2021-06-07 18:11:38 +0300
 <h3>:memo: Refactor code </h3>Date: 2021-06-07 18:14:44 +0300
+<h3>README</h3>Date: 2021-06-07 18:30:02 +0300
