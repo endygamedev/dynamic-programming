@@ -94,7 +94,7 @@ The task is decomposed into three modules:
 <ol>
     <li><a href="./src/python-module/change-making">Change-Making Problem</a></li>
     <li><a href="./src/python-module/knapsack">Knapsack Problem</a></li>
-    <li><a href="./src/python-module/knapsack">FDPP (other problems)</a></li>
+    <li><a href="./src/python-module/fdpp">FDPP (other problems)</a></li>
 </ol>
 
 
