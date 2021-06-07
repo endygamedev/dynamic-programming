@@ -131,49 +131,49 @@ static PyMethodDef methods[] = {
 		"min_sum_partition",
 		py_min_sum_partition,
 		METH_VARARGS,
-		"Doc"
+		"min_sum_partition"
 	},
 	{
 		"coin_change",
 		py_coin_change,
 		METH_VARARGS,
-		"Doc"
+		"coin_change"
 	},
 	{
-	    "const_cost_matrix_path",
-	    py_const_cost_matrix_path,
-	    METH_VARARGS,
-	    "doc"
+		"const_cost_matrix_path",
+		py_const_cost_matrix_path,
+		METH_VARARGS,
+		"const_cost_matrix_path"
 	},
-    {
-        "min_matrix_path",
-        py_min_matrix_path,
-        METH_VARARGS,
-	    "doc"
-    },
-    {
-        "matrix_chain_multiplication",
-        py_matrix_chain_multiplication,
-        METH_VARARGS,
-        "doc"
-    },
-    {
-        "binary_strings_without_ones",
-        py_binary_strings_without_ones,
-        METH_VARARGS,
-        "doc"
-    },
-    {
-        "rod_cut",
-        py_rod_cut,
-        METH_VARARGS,
-        "doc"
-    },
+	{
+		"min_matrix_path",
+		py_min_matrix_path,
+		METH_VARARGS,
+		"min_matrix_path"
+	},
+	{
+		"matrix_chain_multiplication",
+		py_matrix_chain_multiplication,
+		METH_VARARGS,
+		"matrix_chain_multiplication"
+	},
+	{
+		"binary_strings_without_ones",
+		py_binary_strings_without_ones,
+		METH_VARARGS,
+		"binary_strings_without_ones"
+	},
+	{
+		"rod_cut",
+		py_rod_cut,
+		METH_VARARGS,
+		"rod_cut"
+	},
 	{
 		"levenshtein_distance",
 		py_levenshtein_distance,
 		METH_VARARGS,
-		"doc"
+		"levenshtein_distance"
 	}
 };
 
@@ -181,7 +181,7 @@ static PyMethodDef methods[] = {
 static PyModuleDef module = {
 	PyModuleDef_HEAD_INIT,
 	"fdpp",
-	"doc",
+	"Favoirte dynamic programming module",
 	-1,
 	methods,
 	NULL,

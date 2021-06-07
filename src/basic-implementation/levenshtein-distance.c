@@ -9,7 +9,7 @@ int min(int x, int y) {
 
 int levenshtein_distance_arr(char * x_string, char * y_string) {
     /*
-    	Description:
+		Description:
 		============
 			calculates the Levenshtein distance between two strings
 

@@ -4,7 +4,7 @@
 
 
 typedef struct {
-    PyObject_HEAD
+	PyObject_HEAD
 	int n;
 	PyObject *coins;
 	int amount;
@@ -80,11 +80,11 @@ static int ChangeMaking_init(ChangeMaking *self, PyObject *args, PyObject *kwds)
 
 
 static PyMemberDef ChangeMaking_members[] = {
-    {"amount", T_INT, offsetof(ChangeMaking, amount), 0, "doc"},
-    {"n", T_INT, offsetof(ChangeMaking, n), 0, "doc"},
-    {"coins", T_OBJECT_EX, offsetof(ChangeMaking, coins), 0, "doc"},
-    {"val", T_INT, offsetof(ChangeMaking, val), 0, "doc"},
-    {"change", T_OBJECT_EX, offsetof(ChangeMaking, change), 0, "doc"},
+    {"amount", T_INT, offsetof(ChangeMaking, amount), 0, "Amount"},
+    {"n", T_INT, offsetof(ChangeMaking, n), 0, "Number of coins"},
+    {"coins", T_OBJECT_EX, offsetof(ChangeMaking, coins), 0, "Type of coins"},
+    {"val", T_INT, offsetof(ChangeMaking, val), 0, "Opitmal profit"},
+    {"change", T_OBJECT_EX, offsetof(ChangeMaking, change), 0, "Mask of coins"},
     {NULL}
 };
 
@@ -115,25 +115,25 @@ static PyObject *ChangeMaking_val(ChangeMaking* self) {
 
 
 static PyMethodDef ChangeMaking_methods[] = {
-	    {
+		{
 			"amount", (PyCFunction)ChangeMaking_amount, METH_NOARGS,
-			"DOC"
+			"Amount"
 		},
-	    {
+		{
 			"n", (PyCFunction)ChangeMaking_n, METH_NOARGS,
-			"DOC"
+			"Number of coins"
 		},
-	    {
+		{
 			"coins", (PyCFunction)ChangeMaking_coins, METH_NOARGS,
-		 	"DOC"
+		 	"Type of coins"
 		},
-	    {
+		{
 			"change", (PyCFunction)ChangeMaking_change, METH_NOARGS,
-		 	"DOC"
+		 	"Mask of coins"
 		},
-	    {
+		{
 			"val", (PyCFunction)ChangeMaking_val, METH_NOARGS,
-			"DOC"
+			"Optimal profit"
 		},
 		{NULL} 
 };
@@ -141,51 +141,51 @@ static PyMethodDef ChangeMaking_methods[] = {
 
 static PyTypeObject ChangeMakingType = {
     PyVarObject_HEAD_INIT(NULL, 0)
-    "change_making.ChangeMaking",       /* tp_name */
+    "change_making.ChangeMaking",  /* tp_name */
     sizeof(ChangeMaking),          /* tp_basicsize */
-    0,                         /* tp_itemsize */
-    (destructor)ChangeMaking_dealloc, /* tp_dealloc */
-    0,                         /* tp_print */
-    0,                         /* tp_getattr */
-    0,                         /* tp_setattr */
-    0,                         /* tp_reserved */
-    0,                         /* tp_repr */
-    0,                         /* tp_as_number */
-    0,                         /* tp_as_sequence */
-    0,                         /* tp_as_mapping */
-    0,                         /* tp_hash  */
-    0,                         /* tp_call */
-    0,                         /* tp_str */
-    0,                         /* tp_getattro */
-    0,                         /* tp_setattro */
-    0,                         /* tp_as_buffer */
+    0,                         	   /* tp_itemsize */
+    (destructor)ChangeMaking_dealloc,  /* tp_dealloc */
+    0,                         	/* tp_print */
+    0,                         	/* tp_getattr */
+    0,                         	/* tp_setattr */
+    0,                         	/* tp_reserved */
+    0,                         	/* tp_repr */
+    0,                         	/* tp_as_number */
+    0,                         	/* tp_as_sequence */
+    0,                         	/* tp_as_mapping */
+    0,                         	/* tp_hash  */
+    0,                         	/* tp_call */
+    0,                         	/* tp_str */
+    0,                         	/* tp_getattro */
+    0,                         	/* tp_setattro */
+    0,                         	/* tp_as_buffer */
     Py_TPFLAGS_DEFAULT |
-        Py_TPFLAGS_BASETYPE,   /* tp_flags */
-    "DOC",           /* tp_doc */
-    0,                         /* tp_traverse */
-    0,                         /* tp_clear */
-    0,                         /* tp_richcompare */
-    0,                         /* tp_weaklistoffset */
-    0,                         /* tp_iter */
-    0,                         /* tp_iternext */
-    ChangeMaking_methods,          /* tp_methods */
-    ChangeMaking_members,          /* tp_members */
+        Py_TPFLAGS_BASETYPE,   	/* tp_flags */
+    "Change Making",			/* tp_doc */
+    0,                         	/* tp_traverse */
+    0,                        	/* tp_clear */
+    0,                         	/* tp_richcompare */
+    0,                         	/* tp_weaklistoffset */
+    0,                         	/* tp_iter */
+    0,                         	/* tp_iternext */
+    ChangeMaking_methods,       /* tp_methods */
+    ChangeMaking_members,       /* tp_members */
     0,
-	0,                         /* tp_base */
-    0,                         /* tp_dict */
-    0,                         /* tp_descr_get */
-    0,                         /* tp_descr_set */
-    0,						   /* tp_dictoffset */
-    (initproc)ChangeMaking_init,   /*tp_init*/
-    0,                         /* tp_alloc */
-    ChangeMaking_new,              /* tp_new */
+	0,                      	/* tp_base */
+    0,                         	/* tp_dict */
+    0,                         	/* tp_descr_get */
+    0,                         	/* tp_descr_set */
+    0,							/* tp_dictoffset */
+    (initproc)ChangeMaking_init,  /*tp_init*/
+    0,                         	  /* tp_alloc */
+    ChangeMaking_new,             /* tp_new */
 };
 
 
 static PyModuleDef module = {
     PyModuleDef_HEAD_INIT,
     "change_making",
-    "DOC",
+    "Change Making module",
     -1,
     NULL, NULL, NULL, NULL, NULL
 };

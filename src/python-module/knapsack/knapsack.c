@@ -4,8 +4,8 @@
 
 
 typedef struct {
-    PyObject_HEAD
-    int w;
+	PyObject_HEAD
+	int w;
 	int n;
 	PyObject *weights;
 	PyObject *values;
@@ -132,27 +132,27 @@ static PyObject *Knapsack_items(Knapsack* self) {
 
 
 static PyMethodDef Knapsack_methods[] = {
-	    {
+		{
 			"w", (PyCFunction)Knapsack_w, METH_NOARGS,
 			"Knapsack capacity"
 		},
-	    {
+		{
 			"n", (PyCFunction)Knapsack_n, METH_NOARGS,
 			"Number of items in knapsack"
 		},
-	    {
+		{
 			"weights", (PyCFunction)Knapsack_weights, METH_NOARGS,
 		 	"Weights for each item"
 		},
-	    {
+		{
 			"values", (PyCFunction)Knapsack_values, METH_NOARGS,
 		 	"Values for each item"
 		},
-	    {
+		{
 			"val", (PyCFunction)Knapsack_val, METH_NOARGS,
 			"Optimal profit"
 		},
-	    {
+		{
 			"items", (PyCFunction)Knapsack_items, METH_NOARGS,
 		 	"Mask of items"
 		},
@@ -182,7 +182,7 @@ static PyTypeObject KnapsackType = {
     0,                         /* tp_as_buffer */
     Py_TPFLAGS_DEFAULT |
         Py_TPFLAGS_BASETYPE,   /* tp_flags */
-    "Knapsack",           		/* tp_doc */
+    "Knapsack",                /* tp_doc */
     0,                         /* tp_traverse */
     0,                         /* tp_clear */
     0,                         /* tp_richcompare */
@@ -192,11 +192,11 @@ static PyTypeObject KnapsackType = {
     Knapsack_methods,          /* tp_methods */
     Knapsack_members,          /* tp_members */
     0,
-	0,                         /* tp_base */
+    0,                         /* tp_base */
     0,                         /* tp_dict */
     0,                         /* tp_descr_get */
     0,                         /* tp_descr_set */
-    0,						   /* tp_dictoffset */
+    0,			       		   /* tp_dictoffset */
     (initproc)Knapsack_init,   /*tp_init*/
     0,                         /* tp_alloc */
     Knapsack_new,              /* tp_new */
