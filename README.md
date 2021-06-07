@@ -43,6 +43,13 @@
       <h6> View full on <a href="https://en.wikipedia.org/wiki/Change-making_problem">Wiki</a> </h6>
 </details>
 
+<details>
+  <summary> 5. <a href="./src/basic-implementation/levenshtein-distance.c ">The Levenshtein Distance Problem</a> </summary>
+      <h6>Short description</h6>
+      <p>Edit distance is a way of quantifying how different two strings are from one another by counting the minimum number of operations required to transform one string into the other.</p>
+      <h6> View full on <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">Wiki</a> </h6>
+</details>
+
 <a id="contributors" href="#table_contributors"><h2>Contributors</h2></a>
 
 <table>
