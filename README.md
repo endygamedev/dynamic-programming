@@ -92,9 +92,9 @@ The selected tasks are the following tasks.
 <a id="module" href="#table_module"><h2>Module</h2></a>
 The task is decomposed into three modules:
 <ol>
-    <li><a href="./src/python-modules/change-making">Change-Making Problem</a></li>
-    <li><a href="./src/python-modules/knapsack">Knapsack Problem</a></li>
-    <li><a href="./src/python-modules/knapsack">FDPP (other problems)</a></li>
+    <li><a href="./src/python-module/change-making">Change-Making Problem</a></li>
+    <li><a href="./src/python-module/knapsack">Knapsack Problem</a></li>
+    <li><a href="./src/python-module/knapsack">FDPP (other problems)</a></li>
 </ol>
 
 
