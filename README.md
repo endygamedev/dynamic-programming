@@ -99,18 +99,20 @@ The task is decomposed into three modules:
 
 
 <h3>Install</h3>
-<pre>
+
+```bash
 $ ./run
-</pre>
+```
 
 And also you can instant test installed packages
 
 <h3>Usage</h3>
-<pre>
+
+```python
 import fdpp
 import knapsack
 import change_making
-</pre>
+```
 
 <a id="contributors" href="#table_contributors"><h2>Contributors</h2></a>
 
